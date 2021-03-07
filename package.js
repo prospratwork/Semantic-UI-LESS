@@ -3,10 +3,10 @@ var
 ;
 
 Package.describe({
-  name    : 'semantic:ui',
+  name    : '@neocoast/semantic:ui',
   summary : 'Semantic UI - LESS Release of Semantic UI',
   version : '2.4.1',
-  git     : 'git://github.com/Semantic-Org/Semantic-UI-LESS.git',
+  git     : 'git://github.com/NeoCoast/Semantic-UI-LESS.git',
 });
 
 Package.onUse(function(api) {

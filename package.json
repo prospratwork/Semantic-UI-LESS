@@ -1,5 +1,5 @@
 {
-  "name": "semantic-ui-less",
+  "name": "@neocoast/semantic-ui-less",
   "version": "2.4.1",
   "title": "Semantic UI",
   "description": "LESS Only distribution of Semantic UI",
@@ -8,10 +8,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Semantic-Org/Semantic-UI-LESS.git"
+    "url": "git://github.com/NeoCoast/Semantic-UI-LESS.git"
   },
   "bugs": {
-    "url": "https://github.com/Semantic-Org/Semantic-UI/issues"
+    "url": "https://github.com/NeoCoast/Semantic-UI/issues"
   },
   "dependencies": {
     "jquery": "x.*"
