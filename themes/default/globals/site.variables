@@ -736,7 +736,7 @@
 
 /*---  Colors  ---*/
 @secondaryColorHover      : saturate(lighten(@secondaryColor, 5), 10, relative);
-@lightPrimaryColorHover   : saturate(darken(@lightPrimaryColor, 5), 10, relative);
+@lightPrimaryColorHover   : @primaryColor;
 @lightSecondaryColorHover : saturate(lighten(@lightSecondaryColor, 5), 10, relative);
 
 @redHover                 : saturate(darken(@red, 5), 10, relative);
@@ -795,7 +795,7 @@
 
 /*---  Colors  ---*/
 @secondaryColorFocus      : saturate(lighten(@secondaryColor, 8), 20, relative);
-@lightPrimaryColorFocus   : saturate(darken(@lightPrimaryColor, 8), 20, relative);
+@lightPrimaryColorFocus   : @primaryColor;
 @lightSecondaryColorFocus : saturate(lighten(@lightSecondaryColor, 8), 20, relative);
 
 @redFocus                 : saturate(darken(@red, 8), 20, relative);
@@ -855,7 +855,7 @@
 
 /*---  Colors  ---*/
 @secondaryColorDown      : lighten(@secondaryColor, 10);
-@lightPrimaryColorDown   : darken(@lightPrimaryColor, 10);
+@lightPrimaryColorDown   : @primaryColor;
 @lightSecondaryColorDown : lighten(@lightSecondaryColor, 10);
 
 @redDown                 : darken(@red, 10);
@@ -915,7 +915,7 @@
 
 /*---  Colors  ---*/
 @secondaryColorActive      : saturate(lighten(@secondaryColor, 5), 15, relative);
-@lightPrimaryColorActive   : saturate(darken(@lightPrimaryColor, 5), 15, relative);
+@lightPrimaryColorActive   : @primaryColor;
 @lightSecondaryColorActive : saturate(lighten(@lightSecondaryColor, 5), 15, relative);
 
 @redActive                 : saturate(darken(@red, 5), 15, relative);
